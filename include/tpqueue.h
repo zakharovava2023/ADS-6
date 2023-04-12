@@ -4,11 +4,11 @@
 #include <string>
 template<typename T, int size>
 class TPQueue {
-private:
- T* arr;
- int first, last, count;
+ private:
+     T* arr;
+     int first, last, count;
 
-public:
+ public:
     TPQueue();
     ~TPQueue();
     bool isEmpty() const;
